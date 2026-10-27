@@ -1,0 +1,436 @@
+{
+  "captured_at": "2026-10-27",
+  "source": "https://philantropica.co",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 3194,
+      "sha256": "be436445fffdbae80074ab29581ecb4de25fdcd51b0086e52b77d1905445655b"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 148,
+      "sha256": "104afb821945ade69c7a7f33eae5c66f68c6eb117918d615f03b901d57c6d3c4"
+    },
+    {
+      "path": ".gitattributes",
+      "bytes": 165,
+      "sha256": "970e58afb15148a3933d7e9b1ec1578ddb425f38afb74c90788a1265f4d6d490"
+    },
+    {
+      "path": "licenses/UNITREE-LICENSE.txt",
+      "bytes": 1558,
+      "sha256": "84aac59fd3246e3ddc49d1387644e8fcf43b0def4f0b9fe687f372e90446df2d"
+    },
+    {
+      "path": "licenses/counterpart.js.LEGAL.txt",
+      "bytes": 684,
+      "sha256": "7f8527b9eeaa06df23469c7f4f7416b51eaec5917216b9eb37ca083fa1de35e8"
+    },
+    {
+      "path": "licenses/InstrumentSans-OFL.txt",
+      "bytes": 4403,
+      "sha256": "9e27a72ed30eb49a08678f6a5d6ed98ec7ba5368f541637ee0683ec9134ef966"
+    },
+    {
+      "path": "licenses/THIRD-PARTY-NOTICES.txt",
+      "bytes": 6803,
+      "sha256": "9671694a24662d33162bfe5dff9be41d2a15acf528ff0013599787ff62a44e56"
+    },
+    {
+      "path": "licenses/QUATERNIUS-LICENSE.txt",
+      "bytes": 806,
+      "sha256": "0f4beaf0fe360a7732e58bbe3dbf60a2422367fbea60cb9ea4add968f383268e"
+    },
+    {
+      "path": "cloudflare/access-mail/mail-worker.js",
+      "bytes": 2063,
+      "sha256": "da7737b9bcfb401c8e088e7ca885b304be9596c02178356a11fdb735b220b8d8"
+    },
+    {
+      "path": "cloudflare/edge/worker.mjs",
+      "bytes": 7387,
+      "sha256": "fcbe1d82c7327f17a07d60cef7575e50248a9e50bf87434ca51bb2290ac6c985"
+    },
+    {
+      "path": "cloudflare/edge/footer-overscroll.js",
+      "bytes": 2010,
+      "sha256": "4ecee609d90b95f22a2e754ad088a4faba14715f2a05501a74852dedc4ab5e6a"
+    },
+    {
+      "path": "cloudflare/vault/worker.mjs",
+      "bytes": 11304,
+      "sha256": "228f5edb72b6b3acf73ea76af577b22e3866af60c37e477ae844d4f41b7c04d0"
+    },
+    {
+      "path": "cloudflare/vault/schema.sql",
+      "bytes": 486,
+      "sha256": "46d84a0de6f98d4762e83a686bfc60371c32190c5e51ff3d9824d3c5e23d85e6"
+    },
+    {
+      "path": "site/index.html",
+      "bytes": 13557,
+      "sha256": "3e33a6b5bf1df481a1e4763e70de7feef31101a6d5c4e492a29df47926e3d195"
+    },
+    {
+      "path": "site/desktop.css",
+      "bytes": 14082,
+      "sha256": "31f9729a9d30c238ea4397ec7b3ede81ac5f09ed356d3383aa6e9cf2f34afc1e"
+    },
+    {
+      "path": "site/sitemap.xml",
+      "bytes": 331,
+      "sha256": "bb6884ad34e224abb437ac9e67cf0b0d01cfee32071bcf2f5c6a35745e7642c4"
+    },
+    {
+      "path": "site/robots.txt",
+      "bytes": 74,
+      "sha256": "e577dd8b6ac743011fc2d398f0622874a6484a03e8b2f3eeb82b05a2c4e7aa68"
+    },
+    {
+      "path": "site/essays/index.html",
+      "bytes": 4759,
+      "sha256": "41f8b684ca98ceb6cb5d34f07641164cf44e577e3251e724b8cf195e4f10a042"
+    },
+    {
+      "path": "site/essays/mission/index.html",
+      "bytes": 13758,
+      "sha256": "768eb0d0d045aae13a33938adba8679c174defd9315067b1cf0e47793ae0f42d"
+    },
+    {
+      "path": "site/about/index.html",
+      "bytes": 5646,
+      "sha256": "5af496513205d76a28c85362f8afd672e7dd31839465342c9dec1617e6436c74"
+    },
+    {
+      "path": "site/source-options/controls.css",
+      "bytes": 4597,
+      "sha256": "a128428c23b609aac1f930b6cf2c34bbc3a97f47b1427d25e5b499557e425f0f"
+    },
+    {
+      "path": "site/cloud-layouts/page-nav.js",
+      "bytes": 410,
+      "sha256": "f37d0409edeffaf41fbb1efe7285c83d2b822467bc88810298ea04a68c156b30"
+    },
+    {
+      "path": "site/cloud-layouts/layouts.css",
+      "bytes": 883,
+      "sha256": "5df56dc8fe5da0ace3c618fac9f05b808b5200ba7997b28164d74d95b3e8fab4"
+    },
+    {
+      "path": "site/seamless/index.html",
+      "bytes": 13557,
+      "sha256": "3e33a6b5bf1df481a1e4763e70de7feef31101a6d5c4e492a29df47926e3d195"
+    },
+    {
+      "path": "site/assets/founders-1200.jpg",
+      "bytes": 257237,
+      "sha256": "511c1d6e072592f1945ae9f34476c3d85ba2055741610f0ec4acf0c3ca6d882d"
+    },
+    {
+      "path": "site/assets/founders-800.webp",
+      "bytes": 89276,
+      "sha256": "a5cee3518adc57dda4c6666470024cd945d1478ef82a69fca3781d5c044696d1"
+    },
+    {
+      "path": "site/assets/fleet-video.css",
+      "bytes": 546,
+      "sha256": "13c0b4686a73736012ce53ae5e9ad7fda48cf354a6443b26fce63f724bb2ba63"
+    },
+    {
+      "path": "site/assets/laptop.glb",
+      "bytes": 474196,
+      "sha256": "110f008afffe2a9f7f0543123d0a31f5e34dccf10b6beef80ac583a0fbdc4420"
+    },
+    {
+      "path": "site/assets/founders.js",
+      "bytes": 2930,
+      "sha256": "5a982e5a62a5f672a63964d37bd2a3bc56db9fafa38c9710e10cb3d9d705c1ec"
+    },
+    {
+      "path": "site/assets/five-computers.css",
+      "bytes": 2037,
+      "sha256": "bd40b5924c2c1c4c18465219c05dc04409b8b81c152d9541750ad92d5c4d0316"
+    },
+    {
+      "path": "site/assets/seamless-social.png",
+      "bytes": 120030,
+      "sha256": "ca0ca9a6d77d29a83590848e1f222b8401f3496ec594a41e399b85bf53890dab"
+    },
+    {
+      "path": "site/assets/fleet-video.js",
+      "bytes": 9462,
+      "sha256": "2cef7ef508d7d829932b7e58401979dd4de4b2a7bab50ebf1dc563ff4815966d"
+    },
+    {
+      "path": "site/assets/site-copy.css",
+      "bytes": 1764,
+      "sha256": "558ac273240ebe62df4815da90158fef17bb09fec91eaffefb775d0feefb02a7"
+    },
+    {
+      "path": "site/assets/founders.css",
+      "bytes": 5840,
+      "sha256": "9acc2f3630572fb2676f1a2f389f85780dd63c386de5f33d68497004a67a712a"
+    },
+    {
+      "path": "site/assets/founders-1600.webp",
+      "bytes": 241636,
+      "sha256": "a9cb2069ec5e288ae099913696cf4304098e82bac9fa3d6e74cd4e419de3bea1"
+    },
+    {
+      "path": "site/assets/founders-480.webp",
+      "bytes": 40350,
+      "sha256": "4fecac8524f108276d615953d77c3438c8f138687ae5f4c07a2e93139d62595e"
+    },
+    {
+      "path": "site/assets/counterpart.js",
+      "bytes": 949594,
+      "sha256": "9836e48f842d0370791d005ae7753d2cf927f997d7b6d0f1dd5fd56f86192a39"
+    },
+    {
+      "path": "site/assets/mission-essay.css",
+      "bytes": 3293,
+      "sha256": "bbbdebc941530b3a19c66c1ca78083331dd278c17b70806fa8c4564b1fff8efd"
+    },
+    {
+      "path": "site/assets/founders-1200.webp",
+      "bytes": 157820,
+      "sha256": "e2cb5bbc594db1c2b2a35d27a4a9b3b8bff5e57cb14f2bf69f15e0a4e50c7b28"
+    },
+    {
+      "path": "site/assets/seamless-mark.svg",
+      "bytes": 201,
+      "sha256": "71e0c9550da4a401f98afeb0238ecc25890830fc75c607f044d7544a14ae22a8"
+    },
+    {
+      "path": "site/assets/essays/research-section-8-body.webp",
+      "bytes": 49012,
+      "sha256": "054f8fb3e094b52154ead948e9b06b371387dd9455fe6d43d1feba82b4ab4fc4"
+    },
+    {
+      "path": "site/assets/essays/musk-post-original.webp",
+      "bytes": 447974,
+      "sha256": "a40010deb23a75fada6e50ca9090e28f952494829bb09523d9e525add57e4de9"
+    },
+    {
+      "path": "site/assets/essays/research-section-8-heading.webp",
+      "bytes": 13058,
+      "sha256": "87afcb08aaa820e8b509861d465edd24d74c3b4e3a0020b6cb933ed262a8b22a"
+    },
+    {
+      "path": "site/assets/essays/research-section-10.webp",
+      "bytes": 29750,
+      "sha256": "070d3af9c2d5690d0e4a1c54222ba1c4a0efdb854c5aee00674382768bba108d"
+    },
+    {
+      "path": "site/assets/essays/mission-social.png",
+      "bytes": 8859,
+      "sha256": "b4f17749d057187db95ff3fea506718968c945488496abdc9463f77f83edfae3"
+    },
+    {
+      "path": "site/assets/essays/musk-post-original-1000.webp",
+      "bytes": 196948,
+      "sha256": "6431ed79ca92243e6f0289a1f399befc5f4918372f65fef03eccfce6ed1ecd66"
+    },
+    {
+      "path": "site/assets/video/humanoids-mobile-still.jpg",
+      "bytes": 122466,
+      "sha256": "468c90882de1e674560cf4045f4094d5aaeaa4815c00557624667f719fb37002"
+    },
+    {
+      "path": "site/assets/video/iot-mobile.mp4",
+      "bytes": 1606818,
+      "sha256": "4de2ed7d24580072b52e2fe15a1f5d879061d050933aa7986188df2ae165d5f4"
+    },
+    {
+      "path": "site/assets/video/iot-desktop-90.mp4",
+      "bytes": 1697933,
+      "sha256": "028bf3d8237ff931e17b4120fb7037656ca09347c09f0adb27f2331d645400cd"
+    },
+    {
+      "path": "site/assets/video/humanoids-desktop-still.jpg",
+      "bytes": 231646,
+      "sha256": "777a54cf2c623b775375ffc575bd186ea263a4177fef506eff8301f9c58a61b0"
+    },
+    {
+      "path": "site/assets/video/drones-desktop.jpg",
+      "bytes": 227813,
+      "sha256": "2c11aff502bd399c2daa4901e0561fbd737d9f5c0ac5fc7fbf2062c2238d30f6"
+    },
+    {
+      "path": "site/assets/video/humanoids-desktop.mp4",
+      "bytes": 22200496,
+      "sha256": "e746ec414c0ca55058342df0df2ce644975367e87cc56ba3a2466a341785d2f5"
+    },
+    {
+      "path": "site/assets/video/humanoids-mobile.mp4",
+      "bytes": 18002010,
+      "sha256": "2298fa54c5618df8355cb2c432ff188f9ed36813ed4b574ea7c21df5a8a62801"
+    },
+    {
+      "path": "site/assets/video/drones-desktop-90.mp4",
+      "bytes": 10180256,
+      "sha256": "eb410e104c0b4537188524bf3924fde17b66f3f943ed6d7968d1afcffd3d1772"
+    },
+    {
+      "path": "site/assets/video/iot-desktop.jpg",
+      "bytes": 184049,
+      "sha256": "8f09ced303ad4373bd5f3b8539ee305edcdf767ed8d7cb240bd580885dd739d5"
+    },
+    {
+      "path": "site/assets/video/drones-mobile.mp4",
+      "bytes": 6394839,
+      "sha256": "7e96820d3286c7b5b5ce86520bfac5a2d9bc4a246c5802cd21b6fc6c09f7fa54"
+    },
+    {
+      "path": "site/assets/video/humanoids-desktop-90.mp4",
+      "bytes": 19724260,
+      "sha256": "dffc3efdb6f87a875143a215ca48443351781d2d2b46b2c21cbd43232bc96432"
+    },
+    {
+      "path": "site/assets/video/iot-desktop.mp4",
+      "bytes": 2061112,
+      "sha256": "b97ed4cc15212e8fccfe71802d0bcb3f0d0fa05f326d40e56ee1c063778265de"
+    },
+    {
+      "path": "site/assets/video/drones-mobile.jpg",
+      "bytes": 177772,
+      "sha256": "a2b091574e7948fd4ee7911979b7f335779bc5ae20c73bc073e9b7bc965c3113"
+    },
+    {
+      "path": "site/assets/video/iot-mobile.jpg",
+      "bytes": 112095,
+      "sha256": "6ee30dc5ccb904c7f272358a7222ffcd8fe53bdbc264b564b361f0b994adce2c"
+    },
+    {
+      "path": "site/assets/video/humanoids-mobile.jpg",
+      "bytes": 104256,
+      "sha256": "e2cc98b2b8d4d97379ccb9a3ed69f49935378b7b53b9e7d4395325a513e8cde9"
+    },
+    {
+      "path": "site/assets/video/humanoids-desktop.jpg",
+      "bytes": 195113,
+      "sha256": "1b26498429aebce2723f400ce7a075a2da8794701cd57b750045c792aff02f2c"
+    },
+    {
+      "path": "site/assets/video/drones-desktop.mp4",
+      "bytes": 11201254,
+      "sha256": "c3de4cace52b5f0ec55abdc1ae3ed9b27fd9aee8f5ad490579ae1172a373ae96"
+    },
+    {
+      "path": "site/assets/product-demo/playback-6d7728ea3ace.js",
+      "bytes": 1216,
+      "sha256": "2ebf432ac476cc45f716b843af5ec7feb4e052c8a7fc9d40a21f039973b55d2b"
+    },
+    {
+      "path": "site/assets/product-demo/desktop-6d7728ea3ace.jpg",
+      "bytes": 58773,
+      "sha256": "ce74912f12aa768fe6023ca39beee5649e805949a497417c4f504050eb48af02"
+    },
+    {
+      "path": "site/assets/product-demo/footer-overscroll-20261026.js",
+      "bytes": 2009,
+      "sha256": "13b1be3655a281940e3a2ecde2c66117f32589071ca8b3d265540de85ad582fb"
+    },
+    {
+      "path": "site/assets/product-demo/seamless-6d7728ea3ace.mp4",
+      "bytes": 6599882,
+      "sha256": "6d7728ea3ace776cebeccc930b808fdae08111b1a757f3eb5f002868b9864016"
+    },
+    {
+      "path": "site/assets/laptop-cleanup/support-source-video.js",
+      "bytes": 7409,
+      "sha256": "63642fd1034d5855ad59a3ebf850bfc2d071c078cddc7904bb9d06d1304b33ab"
+    },
+    {
+      "path": "site/assets/laptop-cleanup/video/support-cloud-mobile.mp4",
+      "bytes": 167999,
+      "sha256": "9618799e24996bedae32374069bce55345766bc25ffa319ae9b9d73eaaf32b40"
+    },
+    {
+      "path": "site/assets/laptop-cleanup/video/five-computers-desktop.jpg",
+      "bytes": 208257,
+      "sha256": "3d7941875efc0be63b14e0535485671ca98bd8bae32d418e56bbc904018219a4"
+    },
+    {
+      "path": "site/assets/laptop-cleanup/video/support-single-desktop-90.mp4",
+      "bytes": 613110,
+      "sha256": "a56b2da89be50394ed4f2e47dfde53cd73e8eefe43fda6c71e9d7b448f93f026"
+    },
+    {
+      "path": "site/assets/laptop-cleanup/video/five-computers-mobile.mp4",
+      "bytes": 576061,
+      "sha256": "657126a3c68f9e9f8d36a0520c52654a28a7426b0f03f78dc06d4000c2c76898"
+    },
+    {
+      "path": "site/assets/laptop-cleanup/video/support-single-desktop.jpg",
+      "bytes": 104067,
+      "sha256": "a588d4f5695420eda8840515616a15885cd54538dd087099fe16f73fe70a313e"
+    },
+    {
+      "path": "site/assets/laptop-cleanup/video/five-computers-desktop-90.mp4",
+      "bytes": 823602,
+      "sha256": "a0609f2e831bb56a6e509820cdd972acee8c72d29b5b0f528f6ecb6941d8920a"
+    },
+    {
+      "path": "site/assets/laptop-cleanup/video/support-single-mobile.mp4",
+      "bytes": 183853,
+      "sha256": "33975d40d884bc543d67c5bb57e8f1ee09f87dc2b6f7508632ffe599fee1e2b6"
+    },
+    {
+      "path": "site/assets/laptop-cleanup/video/support-cloud-desktop-90.mp4",
+      "bytes": 511287,
+      "sha256": "65bf6004892f0be7205235c6465cd026d506d8f4c07d30ac1cad1ac398d12ecf"
+    },
+    {
+      "path": "site/assets/laptop-cleanup/video/support-cloud-desktop.mp4",
+      "bytes": 471292,
+      "sha256": "7d75bfec742461a1645f380b45dea70324f0856972c4684f3acc748a5e4c5823"
+    },
+    {
+      "path": "site/assets/laptop-cleanup/video/support-single-desktop.mp4",
+      "bytes": 586074,
+      "sha256": "3425d73efd5ee94581dda989d2c21e7f1e4ffb4267489b9fd4560a679d0648f9"
+    },
+    {
+      "path": "site/assets/laptop-cleanup/video/support-cloud-desktop.jpg",
+      "bytes": 123255,
+      "sha256": "1e81d77d3decc13c12fb2291245a6d00426e329c64c3175028b5dfd7566235a5"
+    },
+    {
+      "path": "site/assets/laptop-cleanup/video/support-single-mobile.jpg",
+      "bytes": 48483,
+      "sha256": "9db8c557b29c882417bd2ead5cd016debc69c73d47eaa75d0f2bc1dbb8292773"
+    },
+    {
+      "path": "site/assets/laptop-cleanup/video/five-computers-desktop.mp4",
+      "bytes": 658128,
+      "sha256": "b6dda2ddf4b9f864b8a8d3bcaf80cc0b5313a212cda72c800e161d8d78ea637c"
+    },
+    {
+      "path": "site/assets/laptop-cleanup/video/support-cloud-mobile.jpg",
+      "bytes": 54207,
+      "sha256": "4f4eb76f16c47c980484bece2447ebc1d668378bc9ab666851584fc86d867ac8"
+    },
+    {
+      "path": "site/assets/laptop-cleanup/video/five-computers-mobile.jpg",
+      "bytes": 164035,
+      "sha256": "16559f73c0e053f5f39b36b007dc65344b331c52b981b514adab67e0ca9e9385"
+    },
+    {
+      "path": "site/assets/draco/draco_decoder.wasm",
+      "bytes": 192420,
+      "sha256": "a680d927bed9cb864ddbd63521868891af2bfbe755092761b4837487618df8ac"
+    },
+    {
+      "path": "site/assets/draco/draco_wasm_wrapper.js",
+      "bytes": 58456,
+      "sha256": "8bb2952d2ba7d67e1414f8df819410cb0434a666be53f671fff75f68843d76f6"
+    },
+    {
+      "path": "site/assets/fonts/InstrumentSans.ttf",
+      "bytes": 194336,
+      "sha256": "b24f1812584816958afcf22e22d08e44318c5e51651e25d2438efdde389b33b1"
+    }
+  ]
+}

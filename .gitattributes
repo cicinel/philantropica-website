@@ -1,0 +1,10 @@
+*.mp4 filter=lfs diff=lfs merge=lfs -text
+*.jpg binary
+*.jpeg binary
+*.png binary
+*.webp binary
+*.ttf binary
+*.woff binary
+*.woff2 binary
+*.glb binary
+*.wasm binary

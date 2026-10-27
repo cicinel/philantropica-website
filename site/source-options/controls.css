@@ -1,0 +1,45 @@
+/* Three alternatives scoped to separate source-control prototypes. */
+.source-controls{display:flex;flex-direction:column;align-items:center;gap:18px;padding-top:16px;min-height:82px}
+.source-description{font-size:17px;line-height:1.45;color:var(--secondary);text-align:center;max-width:620px}
+.source-controls button,.source-label-switch{border:0;padding:0;background:transparent;color:var(--ink);display:grid;place-items:center}
+.source-controls button:focus-visible,.source-label-switch:focus-visible,.source-range:focus-visible{outline:2px solid var(--ink);outline-offset:6px}
+.source-controls button:disabled,.source-label-switch:disabled{cursor:default}
+.source-controls svg,.source-label-switch svg{width:18px;height:18px;fill:none;stroke:currentColor;stroke-width:1.3;stroke-linecap:round;stroke-linejoin:round}
+.source-slider{display:flex;align-items:center;gap:19px;height:32px;color:var(--secondary)}
+.source-endpoint{display:grid;place-items:center;transition:color .2s}.source-endpoint[data-current=true]{color:var(--ink)}
+.source-endpoint svg{width:21px;height:21px;stroke-width:1.2}
+.source-range{-webkit-appearance:none;appearance:none;width:142px;height:32px;margin:0;background:transparent;cursor:ew-resize;touch-action:pan-y;color:var(--ink)}
+.source-range::-webkit-slider-runnable-track{height:1px;background:#b7b7b7}
+.source-range::-webkit-slider-thumb{-webkit-appearance:none;appearance:none;margin-top:-7px;width:15px;height:15px;border:0;border-radius:50%;background:var(--ink)}
+.source-range::-moz-range-track{height:1px;background:#b7b7b7}.source-range::-moz-range-thumb{width:15px;height:15px;border:0;border-radius:50%;background:var(--ink)}
+.source-range:disabled{cursor:default;opacity:.45}
+/* The second option makes the source caption itself the control's anchor. */
+[data-source-option=switch] .label-friend,[data-source-option=switch] .label-cloud{display:flex;align-items:center;gap:13px;line-height:28px;margin-top:-5px}
+.source-label-switch{position:relative;width:66px;height:28px;border:1px solid #d8d8d8;border-radius:3px;pointer-events:auto;flex-shrink:0}
+.source-label-switch .switch-thumb{position:absolute;inset:2px auto 2px 2px;width:29px;background:var(--ink);border-radius:1px;transform:translateX(0);transition:transform .3s var(--ease)}
+.source-label-switch[aria-checked=true] .switch-thumb{transform:translateX(31px)}
+.source-label-switch .switch-icons{display:flex;position:relative;width:100%;justify-content:space-around;align-items:center;color:#5e5e5e}
+.source-label-switch svg{width:16px;height:16px;transition:color .2s}.source-label-switch[aria-checked=false] .icon-peer,.source-label-switch[aria-checked=true] .icon-cloud{color:#fff}
+[data-source-option=switch] .source-controls{padding-top:25px;min-height:64px}
+/* The third option advances only after the current render has completed. */
+.source-sequence{display:flex;align-items:center;gap:12px;height:32px}
+.source-sequence .source-step{width:32px;height:32px;color:#737373;transition:color .2s}.source-sequence .source-step:hover{color:var(--ink)}
+.sequence-pages{display:flex;align-items:center;gap:7px}
+.sequence-page{position:relative;display:block!important;width:43px;height:32px;overflow:hidden}
+.sequence-page::before{content:'';position:absolute;left:0;right:0;top:15px;height:2px;background:#d6d6d6}
+.sequence-page::after{content:'';position:absolute;left:0;right:0;top:15px;height:2px;background:var(--ink);transform:scaleX(var(--source-progress,0));transform-origin:left}
+.sequence-page[aria-pressed=false]::after{transform:scaleX(0)}
+.source-auto-pause{width:32px;height:32px;margin-left:4px;color:#737373!important}
+.source-auto-pause[aria-pressed=true] .pause-icon,.source-auto-pause[aria-pressed=false] .play-icon{display:none}
+html[data-source-view=diagram] .site-header,html[data-source-view=diagram] .hero,html[data-source-view=diagram] .fleet,html[data-source-view=diagram] .site-footer,html[data-source-view=diagram] .skip{display:none}
+html[data-source-view=diagram] .compute{padding-block:38px 28px}
+html[data-source-view=diagram] .compute-figure{margin-top:0}
+html[data-source-view=diagram] .compute-stage{height:clamp(345px,31vw,470px)}
+html[data-source-view=diagram] .source-controls{padding-top:20px}
+@media(prefers-reduced-motion:reduce){.source-label-switch .switch-thumb,.source-endpoint,.source-label-switch svg{transition:none}}
+
+[data-source-option=cycle] .compute-motion-toggle{display:none}
+
+.source-controls button[hidden]{display:none!important}
+
+html[data-source-view=diagram] .compute-context{font-size:18px;max-width:760px;margin-bottom:18px}

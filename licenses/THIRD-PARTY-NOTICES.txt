@@ -1,0 +1,120 @@
+Tabler Icons 3.49.0
+Source: https://github.com/tabler/tabler-icons
+
+MIT License
+
+Copyright (c) 2020-2026 Paweł Kuna
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+
+Cytoscape.js 3.34.4 (build-time layout)
+Source: https://js.cytoscape.org/
+
+Copyright (c) 2016-2026, The Cytoscape Consortium.
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of
+this software and associated documentation files (the “Software”), to deal in
+the Software without restriction, including without limitation the rights to
+use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies
+of the Software, and to permit persons to whom the Software is furnished to do
+so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+Detailed laptop model and floating-laptop example: https://github.com/pmndrs/examples/tree/main/examples/floating-laptop
+MIT License
+
+Copyright (c) 2024 Poimandres
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+Three.js and GSAP: bundled license notices in counterpart.js.LEGAL.txt. Draco decoder distributed with Three.js, Apache 2.0. Instrument Sans: OFL in assets/fonts/InstrumentSans-OFL.txt.
+
+
+Drone source geometry: gym-pybullet-drones assets/cf2.dae, contributor Lakshman Kumar. https://github.com/learnsyslab/gym-pybullet-drones/blob/main/gym_pybullet_drones/assets/cf2.dae
+MIT License
+
+Copyright (c) 2020 Jacopo Panerati
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+Resource bridge hardware symbols (CPU, GPU, memory-stick)
+Lucide 0.560.0, https://github.com/lucide-icons/lucide/tree/0.560.0/icons
+Original local SVGs and full license: resource-icons/ (LICENSE).
+Preserved historical assets; these glyphs are no longer displayed in the current diagrams.
+
+Rendering workload subject: Three.js TeapotGeometry from the existing pinned Three.js 0.186.1 package, based on Martin Newell’s Utah teapot patch data. Geometry is rendered natively into screen textures. Three.js MIT license remains in the bundled notices. No AI image generation.
+
+Humanoid peer model
+Source: Unitree Robotics G1, g1_23dof.urdf and its 29 visual STL meshes.
+https://github.com/unitreerobotics/unitree_ros/tree/15ebe53f4cd77e7d745ae83b9d7ff90e685e8998/robots/g1_description
+BSD 3-Clause; full upstream notice in peers/UNITREE-LICENSE.txt.
+Derived static pose and simplified GLB: peers/humanoid.glb. Used as a schematic concept illustration; no affiliation or integration claim.
+IoT device geometry is authored in .peer-models.js with the existing MIT-licensed Three.js geometry tools. No generated bitmap artwork.
+
+Wearable fitting mannequin
+Quaternius, Universal Base Characters Standard (Superhero Male FullBody).
+https://quaternius.com/packs/universalbasecharacters.html
+Official free archive: https://quaternius.itch.io/universal-base-characters
+CC0 1.0 Universal; full bundled notice in peers/QUATERNIUS-LICENSE.txt.
+Standard archive SHA-256: fdbf1804c90dfc1ea03e992bff7da2dfd1a79318e13270a660180f9308455f40.
+Original mesh/skin and skeleton packaged as peers/mannequin.glb, with texture dependencies stripped. Runtime poses and bakes the torso/hand form for illustration. No affiliation/endorsement/integration claim.
+G1 live animation rebinds the existing optimized mesh to the same published URDF joint origins, axes and limits; peers/humanoid-rig.json.

@@ -1,0 +1,30 @@
+/* Keep the headline on two lines across the existing responsive layout. */
+.hero-copy{container-type:inline-size}
+.hero h1{font-size:clamp(18px,7.2cqi,52px);line-height:1.08;letter-spacing:-.035em}
+
+/* Reserve the longest device name; animate only the word that changes. */
+.fleet-title-slot{display:inline-grid;vertical-align:baseline;white-space:nowrap;line-height:inherit;max-inline-size:100%}
+.fleet-title-sizer,.fleet-title-device{grid-area:1/1;line-height:1.06;padding:.025em 0 .055em}
+.fleet-title-sizer{visibility:hidden;pointer-events:none}
+.fleet-title-device{justify-self:start;align-self:start;color:inherit;background:none}
+
+/* All descriptions share one grid cell, sized to the tallest at each viewport. */
+.fleet-description{display:grid;min-inline-size:0}
+.fleet-description-panel{grid-area:1/1;visibility:hidden;min-inline-size:0}
+.fleet-description-panel.is-active{visibility:visible}
+/* A shared frame preserves section dimensions when the media changes. */
+.fleet .fleet-scene[data-peer-family]{aspect-ratio:3.0693877551}
+.fleet-scene .fleet-video,.fleet-scene .fleet-poster img{object-fit:contain}
+
+/* Enlarge individual scenes inside the shared frame. */
+.fleet .fleet-scene{overflow:clip}
+.fleet-scene[data-peer-family=humanoids]{--fleet-media-scale:1.16}
+.fleet-scene[data-peer-family=iot]{--fleet-media-scale:1.25}
+.fleet-scene .fleet-video,.fleet-scene .fleet-poster img{transform:scale(var(--fleet-media-scale,1));transform-origin:50% 50%}
+@media(max-width:760px){
+ .fleet-scene[data-peer-family=humanoids]{--fleet-media-scale:1.08}
+ .fleet-scene[data-peer-family=iot]{--fleet-media-scale:1.12}
+}
+
+/* Keep source switching without an empty caption area. */
+[data-source-option=switch] .source-controls{min-height:0;padding-top:0;gap:0}

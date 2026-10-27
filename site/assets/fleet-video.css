@@ -1,0 +1,10 @@
+.fleet-scene .fleet-poster { display: block; }
+.fleet-scene .fleet-poster img { display: block; width: 100%; height: 100%; object-fit: cover; }
+.fleet-scene .fleet-video { position: absolute; display: block; inset: 0; width: 100%; height: 100%; object-fit: cover; opacity: 0; }
+.fleet-scene.video-ready .fleet-video { opacity: 1; }
+.fleet-scene.video-ready .fleet-poster { opacity: 0; }
+@media (prefers-reduced-motion: reduce) {
+  .fleet-scene .fleet-video { display: none; }
+  .fleet-scene.video-ready .fleet-poster { opacity: 1; }
+}
+

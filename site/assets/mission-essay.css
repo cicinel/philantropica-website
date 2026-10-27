@@ -1,0 +1,39 @@
+.mission-essay{padding-bottom:76px}
+.mission-hero{max-width:680px;margin-inline:auto;padding:42px 0 28px}
+.mission-hero h1{margin:0;font-size:clamp(40px,4.5vw,60px);line-height:1.08;letter-spacing:-.045em;font-weight:450}
+.mission-body{max-width:680px;margin-inline:auto}
+.mission-body p{font-size:19px;line-height:1.6;letter-spacing:-.012em;color:#484848;margin-bottom:20px}
+.mission-body .essay-lead{font-size:23px;line-height:1.4;color:var(--ink);letter-spacing:-.02em;margin-bottom:22px}
+.mission-body section{margin-top:36px}
+.mission-body h2{font-size:27px;line-height:1.2;letter-spacing:-.03em;margin-bottom:18px;font-weight:450}
+.mission-body sup{font-size:12px;margin-left:3px;line-height:0}
+.source-ref{color:var(--ink);text-decoration:underline;text-underline-offset:3px}
+.mission-body .mission-principle{margin-top:34px;margin-bottom:0;font-size:19px;line-height:1.6;color:var(--ink)}
+.mission-body .essay-sources{margin-top:32px}
+.essay-sources h2{font-size:14px;letter-spacing:0;font-weight:500;margin-bottom:18px}
+.essay-sources ol{margin:0;padding-left:23px;color:var(--secondary)}
+.essay-sources li{padding-left:5px;margin-bottom:15px;font-size:13px;line-height:1.6;scroll-margin-top:40px}
+.essay-sources a{text-decoration:underline;text-underline-offset:3px;color:var(--ink)}
+.essay-sources .source-detail{display:block;font-size:12px;margin-top:2px}
+.mission-essay-page .site-footer{padding-top:35px}
+@media(max-width:760px){
+ .mission-essay{padding-bottom:36px}.mission-hero{padding:30px 0 24px}.mission-hero h1{font-size:38px;letter-spacing:-.04em}
+ .mission-body p{font-size:18px;line-height:1.6;margin-bottom:20px}.mission-body .essay-lead{font-size:22px;margin-bottom:22px}.mission-body section{margin-top:32px}.mission-body h2{font-size:25px;margin-bottom:16px}
+ .mission-body .mission-principle{font-size:18px;margin-top:30px}.mission-body .essay-sources{margin-top:30px}.essay-sources h2{font-size:14px}
+}
+
+.source-screenshot{margin:24px 0}
+.source-screenshot img{display:block;width:100%;height:auto}
+.source-screenshot a:focus-visible{outline:2px solid var(--ink);outline-offset:4px}
+.paper-captures{display:block;background:#fff;padding:0}
+.paper-captures>a{display:block}.paper-captures>a+a{margin-top:0}
+.paper-captures .paper-heading-capture{width:calc(100% - 15px);margin-left:8px}
+.screenshot-link{display:block;background:#000}.original-x-post img{background:#000}
+.essay-directory{max-width:1052px;min-height:calc(100svh - 350px);padding-top:78px;padding-bottom:140px}
+.essay-directory-heading h1{font-size:36px;line-height:1.15;letter-spacing:-.035em;font-weight:450}
+.essay-list{list-style:none;padding:0;margin:30px 0 0}
+.essay-entry{display:inline-block;max-width:none;margin:0;padding:8px 0;font-size:26px;line-height:1.3;letter-spacing:-.025em}
+.essay-entry:hover{text-decoration:underline;text-underline-offset:5px;text-decoration-thickness:1px}
+.essay-entry:focus-visible{outline:2px solid var(--ink);outline-offset:6px}
+.essay-directory-page .site-footer{padding-top:35px}
+@media(max-width:760px){.paper-captures{padding:0}.source-screenshot{margin-block:24px}.essay-directory{padding-top:48px;padding-bottom:90px;min-height:calc(100svh - 300px)}.essay-directory-heading h1{font-size:32px}.essay-list{margin-top:26px}.essay-entry{font-size:24px}}

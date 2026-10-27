@@ -4,6 +4,15 @@ The current public website at https://philantropica.co, exported on 27 October 2
 
 ## Preview
 
+Videos are stored with Git LFS. After cloning, fetch them with:
+
+```sh
+git lfs install
+git lfs pull
+```
+
+Install [Git LFS](https://git-lfs.com/) first if it is not already available.
+
 From the repository root:
 
 ```sh

@@ -1,0 +1,21 @@
+.compute-stage[data-five-computers]{height:clamp(560px,45vw,690px)}
+.compute-stage[data-five-computers] .five-work-layer{pointer-events:none}
+.compute-stage[data-five-computers] .stage-poster img{display:block;width:100%;height:100%;object-fit:contain}
+.compute-stage[data-five-computers] .five-compute-video{position:absolute;inset:0;display:block;width:100%;height:100%;object-fit:contain;opacity:0}
+.compute-stage[data-five-computers].five-video-ready .five-compute-video{opacity:1}
+.compute-stage[data-five-computers].five-video-ready .stage-poster{opacity:0}
+@media(prefers-reduced-motion:reduce){.compute-stage[data-five-computers] .five-compute-video{display:none}.compute-stage[data-five-computers].five-video-ready .stage-poster{opacity:1}}
+@media(max-width:760px){.compute-stage[data-five-computers]{height:620px}.compute-motion-toggle{right:14px}}
+
+
+.compute-stage[data-five-computers]{overflow-anchor:none}
+.source-controls{overflow-anchor:none}
+.support-selector{width:min(420px,calc(100vw - 48px));padding:3px;border:1px solid #d8d8d8;border-radius:4px;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:3px}
+.source-controls .support-choice{display:flex;align-items:center;justify-content:center;gap:7px;padding:9px 8px;min-height:38px;border-radius:2px;font:inherit;font-size:13px;line-height:1.2;white-space:nowrap;color:#666;cursor:pointer}
+.source-controls .support-choice[aria-checked=true]{color:white;background:#171717}
+.source-controls .support-choice svg{flex:none;width:18px;height:18px;stroke-width:1.3}
+.source-controls .source-description{height:4.5em;margin:0;line-height:1.45}
+.compute-phase{position:absolute;bottom:0;left:42px;right:42px;text-align:center;font-size:13px;line-height:1.3;color:#666;pointer-events:none}
+@media(max-width:760px){.source-controls .support-choice{padding:8px 3px;gap:4px;font-size:11.5px}.source-controls .support-choice svg{width:16px;height:16px}.compute-phase{font-size:11px}}
+
+.compute-stage[data-five-computers]{background:var(--paper)}

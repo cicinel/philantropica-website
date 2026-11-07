@@ -18,9 +18,28 @@ const ABOUT_PARAGRAPHS = [
   'We’re building a network to share that compute across people and devices, helping consumers and enterprises speed up processes and run apps that wouldn’t otherwise fit on their hardware. We believe the same network will eventually support wearable IoT devices and humanoid robots, where size and power limit onboard compute.'
 ];
 
+// Temporarily unpublished. Original pages and the prior Worker version are archived.
+function isInactiveEssayPath(pathname) {
+  let path;
+  try { path = decodeURIComponent(pathname); } catch { path = pathname; }
+  return /^\/(?:essays?|mission)(?:\/|\.|$)/i.test(path);
+}
+
+function isInactiveEssayLink(href, base) {
+  try {
+    const target = new URL(href, base);
+    return [new URL(base).hostname, 'philantropica.co', 'www.philantropica.co'].includes(target.hostname)
+      && isInactiveEssayPath(target.pathname);
+  } catch { return false; }
+}
+
 export default {
   async fetch(request, env) {
     const url = new URL(request.url);
+    if (isInactiveEssayPath(url.pathname)) return new Response(request.method === 'HEAD' ? null : 'Not found', {
+      status: 404,
+      headers: {'content-type':'text/plain; charset=utf-8','cache-control':'no-store','x-robots-tag':'noindex','x-seamless-essays':'disabled-20261102'}
+    });
     if (url.pathname === FOOTER_SCRIPT) return new Response(request.method === 'HEAD' ? null : FOOTER_OVERSCROLL, {headers:{'content-type':'text/javascript; charset=utf-8','cache-control':'public, max-age=86400'}});
     if (url.pathname === ROOT + 'details.html') return new Response('Not found', {status:404,headers:{'content-type':'text/plain','cache-control':'no-store'}});
     if (['/assets/laptop.glb','/assets/counterpart.js'].includes(url.pathname)) {
@@ -47,15 +66,28 @@ export default {
       return new Response(bytes.slice(start,end+1),{status:206,headers});
     }
     const response = await fetch(request);
+    if (url.pathname === '/sitemap.xml' && response.ok && ['GET','HEAD'].includes(request.method)) {
+      const sitemap = request.method === 'HEAD' ? null : (await response.text()).replace(/<url\b[^>]*>[\s\S]*?<\/url>/gi, entry => {
+        const location = /<loc\b[^>]*>([\s\S]*?)<\/loc>/i.exec(entry)?.[1];
+        return location && isInactiveEssayLink(location.trim(), request.url) ? '' : entry;
+      });
+      const headers = new Headers(response.headers);
+      headers.delete('etag'); headers.delete('content-length');
+      headers.set('cache-control','no-cache');
+      headers.set('x-seamless-essays','disabled-20261102');
+      return new Response(sitemap, {status:response.status, headers});
+    }
     const isHome = ['/','/index.html','/seamless','/seamless/'].includes(url.pathname);
     const isSitePage = isHome || /^\/(about|essays|mission)(\/|$)/.test(url.pathname);
     if (!['GET','HEAD'].includes(request.method) || !isSitePage || !response.ok || !response.headers.get('content-type')?.includes('text/html')) return response;
-    let pageResponse = response;
+    let pageResponse = new HTMLRewriter().on('a[href]', {element(el) {
+      if (isInactiveEssayLink(el.getAttribute('href'), request.url)) el.remove();
+    }}).transform(response);
     if (/^\/about(?:\/(?:index\.html)?)?$/.test(url.pathname)) {
       let paragraph = 0;
       pageResponse = new HTMLRewriter().on('.about-copy > p:not(.founder-intro)', {element(el) {
         if (paragraph < ABOUT_PARAGRAPHS.length) el.setInnerContent(ABOUT_PARAGRAPHS[paragraph++]);
-      }}).transform(response);
+      }}).transform(pageResponse);
     }
     const footer = new HTMLRewriter().on('.site-footer .footer-word', {element(el) {
       el.after(`<script src="${FOOTER_SCRIPT}" defer></script>`, {html:true});

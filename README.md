@@ -1,6 +1,8 @@
 # Philantropica website
 
-The current public website at https://philantropica.co, exported on 27 October 2026. It includes the approved About Us text, mission essay, styles, scripts, fonts, images and all desktop/mobile animation variants.
+The public website at https://philantropica.co, exported on 27 October 2026, with essays temporarily unpublished on 2 November and the vault updated to Seamless 0.8.5 on 6 November 2026. It includes the approved About Us text, styles, scripts, fonts, images and all desktop/mobile animation variants.
+
+The inactive essay pages and media are retained in `deactivated/`, outside the publishable `site/` directory, and in Git history. A complete backup is also retained locally in `archives/website-before-essays-disabled-2026-11-02.tar.gz`. That duplicate archive is excluded from Git. Production Worker version `51daa617-e545-489f-a3d1-094433873192` removes essay links and sitemap entries and returns HTTP 404 for essay/mission routes. Previous version `d15f1ff5-11ae-49b5-bc83-c852b51e87b1` is retained for rollback. The Pages origin and access services were preserved.
 
 ## Preview
 
@@ -19,7 +21,7 @@ From the repository root:
 python3 -m http.server 8765 --bind 127.0.0.1 --directory site
 ```
 
-Open http://127.0.0.1:8765. Main routes are `/`, `/seamless/`, `/about/`, `/essays/` and `/essays/mission/`. No frontend build or package installation is required.
+Open http://127.0.0.1:8765. Main active routes are `/`, `/seamless/` and `/about/`. No frontend build or package installation is required.
 
 ## Files
 
@@ -27,6 +29,7 @@ Open http://127.0.0.1:8765. Main routes are `/`, `/seamless/`, `/about/`, `/essa
 - `cloudflare/edge/`: the current deployed `seamless-hero-video` Worker and footer module. It serves the latest product video and laptop media and applies the approved About copy and display corrections over the Pages origin.
 - `cloudflare/vault/`: the deployed installer-access Worker and its database schema. Installer binaries and visitor records are private and are not included.
 - `cloudflare/access-mail/`: the deployed early-access notification Worker.
+- `deactivated/`: preserved essay pages, stylesheet and images.
 - `licenses/`: bundled third-party notices and font/model licenses.
 - `asset-manifest.json`: file hashes and sizes for this export.
 
